@@ -1,4 +1,4 @@
-# Sentimental-analysis-using-BERT
+# Continuous Sentimental-analysis-using-BERT
 
 
 ### Prerequisites
@@ -10,26 +10,7 @@
 
 ### Project Outline
 
-**Step 1**: Introduction (this section)
-
-**Step 2**: Exploratory Data Analysis and Preprocessing
-
-**Step 3**: Training/Validation Split
-
-**Step 4**: Loading Tokenizer and Encoding our Data
-
-**Step 5**: Setting up BERT Pretrained Model
-
-**Step 6**: Creating Data Loaders
-
-**Step 7**: Setting Up Optimizer and Scheduler
-
-**Step 8**: Defining our Performance Metrics
-
-**Step 9**: Creating our Training Loop
-
-**Step 10**: Loading and Evaluating our Model
-
+We use BERT as a encoder to generate a vector for each sentence. We also get a set of emotion bases with the same dimensions as our sentence encoding as input. A header that is similar to that in contrastive learning is applied to seperate sentence encoding from emotion base that is far away from GT emotion base in emotion embedding space, and makes sentence encoding and GT emotion bases closer. 
 
 ## Introduction
 
